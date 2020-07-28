@@ -1,0 +1,706 @@
+{
+  "intents": [
+    {
+      "intent": "areyou2",
+      "examples": [
+        {
+          "text": "Everything is all right."
+        },
+        {
+          "text": "I´m doing well."
+        },
+        {
+          "text": "I´m fine."
+        },
+        {
+          "text": "Fine"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "areyou",
+      "examples": [
+        {
+          "text": "Fine and you?"
+        },
+        {
+          "text": "I´m doing well, what about you?"
+        },
+        {
+          "text": "I am doing well, and you?"
+        },
+        {
+          "text": "I´m fine, what about you?"
+        },
+        {
+          "text": "How are you?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type6",
+      "examples": [
+        {
+          "text": "topic 6"
+        },
+        {
+          "text": "topic6"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yes"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "ok"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type8",
+      "examples": [
+        {
+          "text": "type8"
+        },
+        {
+          "text": "type 8"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type7",
+      "examples": [
+        {
+          "text": "type 7"
+        },
+        {
+          "text": "type7"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type0",
+      "examples": [
+        {
+          "text": "type0"
+        },
+        {
+          "text": "type 0"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type5",
+      "examples": [
+        {
+          "text": "topic5"
+        },
+        {
+          "text": "topic 5"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type3",
+      "examples": [
+        {
+          "text": "topic 3"
+        },
+        {
+          "text": "topic3"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hola",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Buenos días"
+        },
+        {
+          "text": "Buenas noches"
+        },
+        {
+          "text": "Buenas tardes"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good night"
+        },
+        {
+          "text": "return"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whatis1",
+      "examples": [
+        {
+          "text": "What are the green patents?"
+        },
+        {
+          "text": "I want to know what the green invention are"
+        },
+        {
+          "text": "Explain me what is a green invention."
+        },
+        {
+          "text": "Do you want to know what the green invention are?"
+        },
+        {
+          "text": "What are the green inventions?"
+        },
+        {
+          "text": "Explain me what the green patents are."
+        },
+        {
+          "text": "Explain me what is a green pantent."
+        },
+        {
+          "text": "what is a green invention?"
+        },
+        {
+          "text": "what is a green patent?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type1",
+      "examples": [
+        {
+          "text": "topic1"
+        },
+        {
+          "text": "topic 1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whatis3",
+      "examples": [
+        {
+          "text": "Where can I see the list of green patents of the WIPO?"
+        },
+        {
+          "text": "Where can I find more information about it?"
+        },
+        {
+          "text": "Where can I find the classification of green inventions?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "functionsresp",
+      "examples": [
+        {
+          "text": "functions"
+        },
+        {
+          "text": "return"
+        },
+        {
+          "text": "function"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whatis2",
+      "examples": [
+        {
+          "text": "How do you know which are green patents?"
+        },
+        {
+          "text": "Which inventions are green?"
+        },
+        {
+          "text": "who define a green patent?"
+        },
+        {
+          "text": "Who defines what inventions are green?"
+        },
+        {
+          "text": "Which patents are green?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type9",
+      "examples": [
+        {
+          "text": "type 9"
+        },
+        {
+          "text": "type9"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type2",
+      "examples": [
+        {
+          "text": "topic2"
+        },
+        {
+          "text": "topic 2"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "type4",
+      "examples": [
+        {
+          "text": "topic4"
+        },
+        {
+          "text": "topic 4"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "no, thanks"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "n"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "define",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "define",
+          "synonyms": [
+            "determine",
+            "establish",
+            "designate",
+            "decide",
+            "stipulate"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "invention",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "patent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "invention",
+          "synonyms": [
+            "patent"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "inventions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "patents",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "inventions",
+          "synonyms": [
+            "patents"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "functions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Try to ask me something like “Which patents are green?”, or “Where can I find more information about green inventions or green patents?”<br/><br/>\nAlso, I can provide you with information about Mexican green patents in the following list of topics: <br/><br/>1. Alternative energy production <br/>2. Transportation <br/>3. Energy conservation <br/>4. Agriculture/forestry <br/>5. Waste management <br/>6. Administrative, regulatory or design aspects <br/> 7. Human needs <br/> 8. Physics <br/> 9. Signaling <br/> 0. Organic chemistry... <br/><br/> by write \"Topic\" + the number of one of the topics listed above, like \"Topic 3. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "conditions": "#functionsresp",
+      "dialog_node": "node_8_1595701834909"
+    },
+    {
+      "type": "standard",
+      "title": "type9",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Signaling is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-signaling/\">https://www.caiinno.org/green-patents-signaling/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type9",
+      "dialog_node": "node_3_1595887784935",
+      "previous_sibling": "node_7_1595887677027"
+    },
+    {
+      "type": "standard",
+      "title": "type3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Energy conservation is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-energy-conservation/\">https://www.caiinno.org/green-patents-energy-conservation/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type3",
+      "dialog_node": "node_1_1595703302592",
+      "previous_sibling": "node_3_1595703235388"
+    },
+    {
+      "type": "standard",
+      "title": "type0",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Organic chemistry is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-organic-chemistry/\">https://www.caiinno.org/green-patents-organic-chemistry/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type0",
+      "dialog_node": "node_2_1595887859368",
+      "previous_sibling": "node_3_1595887784935"
+    },
+    {
+      "type": "standard",
+      "title": "type8",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Physics is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-physics/\">https://www.caiinno.org/green-patents-physics/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type8",
+      "dialog_node": "node_7_1595887677027",
+      "previous_sibling": "node_6_1595887555370"
+    },
+    {
+      "type": "standard",
+      "title": "type5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Waste management is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-waste-management/\">https://www.caiinno.org/green-patents-waste-management/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type5",
+      "dialog_node": "node_3_1595703539760",
+      "previous_sibling": "node_3_1595703392356"
+    },
+    {
+      "type": "standard",
+      "title": "type2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Transportation is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-transportation/\">https://www.caiinno.org/green-patents-transportation/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type2",
+      "dialog_node": "node_3_1595703235388",
+      "previous_sibling": "node_6_1595702773310"
+    },
+    {
+      "type": "standard",
+      "title": "type4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Agriculture/forestry is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-agriculture-forestry/\">https://www.caiinno.org/green-patents-agriculture-forestry/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type4",
+      "dialog_node": "node_3_1595703392356",
+      "previous_sibling": "node_1_1595703302592"
+    },
+    {
+      "type": "standard",
+      "title": "#whatis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Green inventions or green patents are inventions created to tackle a large list of problems related to climate change, or inventions friendly with the environment. The World Intellectual Property Organization create a list of inventions based on an international classification, to determinate which inventions are green. For Mexico, after a work of several months we identified the Mexicans green inventions or green patents.<br/> Do you want more information about the green patents?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#whatis1",
+      "dialog_node": "node_1_1595703869265",
+      "previous_sibling": "node_8_1595703773033"
+    },
+    {
+      "type": "standard",
+      "title": "type6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Administrative, regulatory or design aspects is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-administrative-regulatory-or-design-aspects/\">https://www.caiinno.org/green-patents-administrative-regulatory-or-design-aspects/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type6",
+      "dialog_node": "node_8_1595703773033",
+      "previous_sibling": "node_3_1595703539760"
+    },
+    {
+      "type": "standard",
+      "title": "type7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Human needs is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-human-needs/\">https://www.caiinno.org/green-patents-human-needs/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type7",
+      "dialog_node": "node_6_1595887555370",
+      "previous_sibling": "node_1_1595703869265"
+    },
+    {
+      "type": "standard",
+      "title": "type1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Alternative energy production is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-alternative-energy-production/\">https://www.caiinno.org/green-patents-alternative-energy-production/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type1",
+      "dialog_node": "node_6_1595702773310"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fine. Write \"return\" if you need to interact again ¡See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595703869265",
+      "conditions": "#no",
+      "dialog_node": "node_10_1595704383756",
+      "previous_sibling": "node_9_1595704217926"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In this link you can find “green inventory” with more information about the green patents or green inventions: <a  target=\"_blank\" href=\"https://www.wipo.int/classifications/ipc/en/green_inventory/\">https://www.wipo.int/classifications/ipc/en/green_inventory/</a>.<br/><br/> Write \"return\" if you need to interact again ¡See you soon!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595703869265",
+      "conditions": "#yes",
+      "dialog_node": "node_9_1595704217926"
+    },
+    {
+      "type": "standard",
+      "title": "Hello",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I am **CAIN-green-bot**, an artificial intelligence that helps you to identify green inventions in Mexico. I hope you find you well. <br/><br/>Please, help me fight climate change. I do it by promoting green patents, so we can use technologies friendly with the environment. Write *functions* to find out what I can do..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Hola",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "PatentesVerdes",
+  "language": "es",
+  "description": ""
+}
