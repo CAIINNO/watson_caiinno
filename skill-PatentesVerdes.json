@@ -43,10 +43,10 @@
       "intent": "type6",
       "examples": [
         {
-          "text": "topic 6"
+          "text": "topic6"
         },
         {
-          "text": "topic6"
+          "text": "topic 6"
         }
       ],
       "description": ""
@@ -55,13 +55,13 @@
       "intent": "yes",
       "examples": [
         {
+          "text": "ok"
+        },
+        {
           "text": "yes"
         },
         {
           "text": "sure"
-        },
-        {
-          "text": "ok"
         }
       ],
       "description": ""
@@ -70,10 +70,10 @@
       "intent": "type8",
       "examples": [
         {
-          "text": "type8"
+          "text": "type 8"
         },
         {
-          "text": "type 8"
+          "text": "type8"
         }
       ],
       "description": ""
@@ -94,10 +94,10 @@
       "intent": "type0",
       "examples": [
         {
-          "text": "type0"
+          "text": "type 0"
         },
         {
-          "text": "type 0"
+          "text": "type0"
         }
       ],
       "description": ""
@@ -130,7 +130,7 @@
       "intent": "Hola",
       "examples": [
         {
-          "text": "Good evening"
+          "text": "return"
         },
         {
           "text": "Hola"
@@ -157,10 +157,10 @@
           "text": "Good afternoon"
         },
         {
-          "text": "Good night"
+          "text": "Good evening"
         },
         {
-          "text": "return"
+          "text": "Good night"
         }
       ],
       "description": ""
@@ -169,13 +169,10 @@
       "intent": "whatis1",
       "examples": [
         {
-          "text": "What are the green patents?"
+          "text": "Explain me what is a green invention."
         },
         {
           "text": "I want to know what the green invention are"
-        },
-        {
-          "text": "Explain me what is a green invention."
         },
         {
           "text": "Do you want to know what the green invention are?"
@@ -187,13 +184,16 @@
           "text": "Explain me what the green patents are."
         },
         {
-          "text": "Explain me what is a green pantent."
+          "text": "What are the green patents?"
+        },
+        {
+          "text": "what is a green patent?"
         },
         {
           "text": "what is a green invention?"
         },
         {
-          "text": "what is a green patent?"
+          "text": "Explain me what is a green pantent."
         }
       ],
       "description": ""
@@ -202,10 +202,10 @@
       "intent": "type1",
       "examples": [
         {
-          "text": "topic1"
+          "text": "topic 1"
         },
         {
-          "text": "topic 1"
+          "text": "topic1"
         }
       ],
       "description": ""
@@ -214,10 +214,10 @@
       "intent": "whatis3",
       "examples": [
         {
-          "text": "Where can I see the list of green patents of the WIPO?"
+          "text": "Where can I find more information about it?"
         },
         {
-          "text": "Where can I find more information about it?"
+          "text": "Where can I see the list of green patents of the WIPO?"
         },
         {
           "text": "Where can I find the classification of green inventions?"
@@ -229,10 +229,10 @@
       "intent": "functionsresp",
       "examples": [
         {
-          "text": "functions"
+          "text": "return"
         },
         {
-          "text": "return"
+          "text": "functions"
         },
         {
           "text": "function"
@@ -244,19 +244,37 @@
       "intent": "whatis2",
       "examples": [
         {
-          "text": "How do you know which are green patents?"
-        },
-        {
           "text": "Which inventions are green?"
         },
         {
-          "text": "who define a green patent?"
+          "text": "Where can I find the classification of green inventions?"
+        },
+        {
+          "text": "Where can I find more information about it?"
+        },
+        {
+          "text": "I want more information about the green patents?"
+        },
+        {
+          "text": "Where can I see the list of green patents of the WIPO?"
         },
         {
           "text": "Who defines what inventions are green?"
         },
         {
           "text": "Which patents are green?"
+        },
+        {
+          "text": "How do you know which are green patents?"
+        },
+        {
+          "text": "Tell me more about green inventions?"
+        },
+        {
+          "text": "Tell me more about green patents"
+        },
+        {
+          "text": "who define a green patent?"
         }
       ],
       "description": ""
@@ -265,10 +283,10 @@
       "intent": "type9",
       "examples": [
         {
-          "text": "type 9"
+          "text": "type9"
         },
         {
-          "text": "type9"
+          "text": "type 9"
         }
       ],
       "description": ""
@@ -384,7 +402,7 @@
           {
             "values": [
               {
-                "text": "Try to ask me something like “Which patents are green?”, or “Where can I find more information about green inventions or green patents?”<br/><br/>\nAlso, I can provide you with information about Mexican green patents in the following list of topics: <br/><br/>1. Alternative energy production <br/>2. Transportation <br/>3. Energy conservation <br/>4. Agriculture/forestry <br/>5. Waste management <br/>6. Administrative, regulatory or design aspects <br/> 7. Human needs <br/> 8. Physics <br/> 9. Signaling <br/> 0. Organic chemistry... <br/><br/> by write \"Topic\" + the number of one of the topics listed above, like \"Topic 3. "
+                "text": "Try to ask me something like “What are the green patents?”, “Which patents are green?”, or “Where can I find more information about green inventions or green patents?”<br/><br/>\nAlso, I can provide you with information about Mexican green patents in the following list of topics: <br/><br/>1. Alternative energy production <br/>2. Transportation <br/>3. Energy conservation <br/>4. Agriculture/forestry <br/>5. Waste management <br/>6. Administrative, regulatory or design aspects <br/> 7. Human needs <br/> 8. Physics <br/> 9. Signaling <br/> 0. Organic chemistry... <br/><br/> by write \"Topic\" + the number of one of the topics listed above, like \"Topic 3. "
               }
             ],
             "response_type": "text",
@@ -458,6 +476,27 @@
       "conditions": "#type0",
       "dialog_node": "node_2_1595887859368",
       "previous_sibling": "node_3_1595887784935"
+    },
+    {
+      "type": "standard",
+      "title": "type7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Human needs is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-human-needs/\">https://www.caiinno.org/green-patents-human-needs/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595701834909",
+      "conditions": "#type7",
+      "dialog_node": "node_6_1595887555370",
+      "previous_sibling": "node_9_1595956508873"
     },
     {
       "type": "standard",
@@ -587,13 +626,13 @@
     },
     {
       "type": "standard",
-      "title": "type7",
+      "title": "#whatis2",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Ok, please click in the following link to access to the list of Mexican inventions in the field of Human needs is: <br/><br/><a  target=\"_blank\" href=\"https://www.caiinno.org/green-patents-human-needs/\">https://www.caiinno.org/green-patents-human-needs/</a><br/><br/> If you have interest in one of them, you can find the contact information of the inventor by searching in the patent in the Mexican Industrial Property Office:<br/><br/><a  target=\"_blank\" href=\"https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf\">https://siga.impi.gob.mx/newSIGA/content/common/principal.jsf</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!\n"
+                "text": "The World Intellectual Property Organization create a list of inventions based on an international classification, to determinate which inventions are green. For Mexico, after a work of several months we identified the Mexicans green inventions or green patents.\nIn this link you can find “green inventory” with more information about the green patents or green inventions: \n<br/><br/><a  target=\"_blank\" href=\"https://www.wipo.int/classifications/ipc/en/green_inventory/\">https://www.wipo.int/classifications/ipc/en/green_inventory/</a>  <br/><br/>Write \"return\" if you need to interact again ¡See you soon!"
               }
             ],
             "response_type": "text",
@@ -602,8 +641,8 @@
         ]
       },
       "parent": "node_8_1595701834909",
-      "conditions": "#type7",
-      "dialog_node": "node_6_1595887555370",
+      "conditions": "#whatis2",
+      "dialog_node": "node_9_1595956508873",
       "previous_sibling": "node_1_1595703869265"
     },
     {
